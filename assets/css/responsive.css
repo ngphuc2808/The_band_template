@@ -1,0 +1,123 @@
+/* PC */
+@media (min-width: 1024px) {
+
+}
+/* Tablet & Mobile */
+@media (max-width: 1023px){
+    .send-input,
+    .card-content-buy {
+        padding: 15px 16px;
+        width: 100%;
+    }
+
+    #footer .social-list {
+        font-size: 32px;
+    }
+
+    #footer .social-list a {
+        padding: 0 4px;
+    }
+
+    #footer .copy-right a {
+        padding: 13px 0;
+    }
+
+    .contact-desc {
+        line-height: 1.8;
+    }
+    
+    .contact-desc p {
+        font-size: 18px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    #nav .subnav a {
+        padding: 5px 12px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    #header {
+        overflow: hidden;
+    }
+    
+    #header .search-btn {
+        display: none;
+    }
+
+    #nav,
+    #nav > li,
+    #header .bar-btn {
+        display: block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+    
+    #nav> li:first-child {
+        display: inline-block;
+    }
+
+    #mobile-menu {
+        float: right;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .member-item {
+        width: 100%;
+    }
+
+    #content .member-avatar {
+        width: 60%;
+    }
+
+    #content .member-name {
+        margin-top: 30px;
+    }
+    
+    #content .card-item {
+        width: 100%;
+    }
+
+    #content .contact-form {
+        margin-top: 8px;
+    }
+
+    #content .m-col-full {
+        width: 100%;
+        float: none;
+    }
+
+    #content .form-control {
+        padding: 12px;
+    }
+
+    .contact-section {
+        padding: 0 8px;
+    }
+
+    .send-input {
+        width: 100%;
+        padding: 13px 16px;
+    }
+
+    .m-mt-8 {
+        margin-top: 8px;
+    }
+}
